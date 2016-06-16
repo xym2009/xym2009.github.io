@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    
+
+    <title>
+      Gabor和LogGabor滤波器 | 雪松北岬 
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+      <meta name="author" content="xym">
+    
+    
+
+    <meta name="description" content="Gabor&amp;#x6EE4;&amp;#x6CE2;&amp;#x5668;&amp;#x3000;&amp;#x3000;Gabor&amp;#x6EE4;&amp;#x6CE2;&amp;#x5668;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x5E26;&amp;#x901A;&amp;#x6EE4;&amp;#x6CE2;&amp;#x5668;&amp;#xFF0C;&amp;#x5B9A;&amp;#x4E49;&amp;#x4E3A;&amp;#x9AD8;&amp;#x65AF;&amp;#x6838;&amp;#x4E0">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Gabor和LogGabor滤波器 | 雪松北岬">
+<meta property="og:url" content="http://yoursite.com/2016/06/12/Gabor/index.html">
+<meta property="og:site_name" content="雪松北岬">
+<meta property="og:description" content="Gabor&amp;#x6EE4;&amp;#x6CE2;&amp;#x5668;&amp;#x3000;&amp;#x3000;Gabor&amp;#x6EE4;&amp;#x6CE2;&amp;#x5668;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x5E26;&amp;#x901A;&amp;#x6EE4;&amp;#x6CE2;&amp;#x5668;&amp;#xFF0C;&amp;#x5B9A;&amp;#x4E49;&amp;#x4E3A;&amp;#x9AD8;&amp;#x65AF;&amp;#x6838;&amp;#x4E0">
+<meta property="og:image" content="http://yoursite.com/2016/06/12/Gabor/1.jpg">
+<meta property="og:updated_time" content="2016-06-16T08:02:59.755Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gabor和LogGabor滤波器 | 雪松北岬">
+<meta name="twitter:description" content="Gabor&amp;#x6EE4;&amp;#x6CE2;&amp;#x5668;&amp;#x3000;&amp;#x3000;Gabor&amp;#x6EE4;&amp;#x6CE2;&amp;#x5668;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x5E26;&amp;#x901A;&amp;#x6EE4;&amp;#x6CE2;&amp;#x5668;&amp;#xFF0C;&amp;#x5B9A;&amp;#x4E49;&amp;#x4E3A;&amp;#x9AD8;&amp;#x65AF;&amp;#x6838;&amp;#x4E0">
+<meta name="twitter:image" content="http://yoursite.com/2016/06/12/Gabor/1.jpg">
+    
+    
+    
+      <link rel="icon" type="image/x-icon" href="/favicon.png">
+    
+    <link rel="stylesheet" href="/css/uno.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/archive.css">
+    <link rel="stylesheet" href="/css/china-social-icon.css"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</head>
+<body>
+
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+
+<header class="panel-cover panel-cover--collapsed">
+
+
+  <div class="panel-main">
+
+  
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        
+
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">雪松北岬</a></h1>
+        <hr class="panel-cover__divider" />
+
+        
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+
+              
+                
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">首页</a></li>
+              
+                
+                <li class="navigation__item"><a href="/categories/study" title="" class="">所学</a></li>
+              
+                
+                <li class="navigation__item"><a href="/categories/eassy" title="" class="">所想</a></li>
+              
+                
+                <li class="navigation__item"><a href="/关于" title="" class="">关于</a></li>
+              
+                
+                <li class="navigation__item"><a href="/archive" title="" class="">归档</a></li>
+              
+
+            </ul>
+          </nav>
+
+          <!-- ----------------------------
+To add a new social icon simply duplicate one of the list items from below
+and change the class in the <i> tag to match the desired social network
+and then add your link to the <a>. Here is a full list of social network
+classes that you can use:
+
+    icon-social-500px
+    icon-social-behance
+    icon-social-delicious
+    icon-social-designer-news
+    icon-social-deviant-art
+    icon-social-digg
+    icon-social-dribbble
+    icon-social-facebook
+    icon-social-flickr
+    icon-social-forrst
+    icon-social-foursquare
+    icon-social-github
+    icon-social-google-plus
+    icon-social-hi5
+    icon-social-instagram
+    icon-social-lastfm
+    icon-social-linkedin
+    icon-social-medium
+    icon-social-myspace
+    icon-social-path
+    icon-social-pinterest
+    icon-social-rdio
+    icon-social-reddit
+    icon-social-skype
+    icon-social-spotify
+    icon-social-stack-overflow
+    icon-social-steam
+    icon-social-stumbleupon
+    icon-social-treehouse
+    icon-social-tumblr
+    icon-social-twitter
+    icon-social-vimeo
+    icon-social-xbox
+    icon-social-yelp
+    icon-social-youtube
+    icon-social-zerply
+    icon-mail
+
+-------------------------------->
+
+<!-- add social info here -->
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner entry">
+            
+
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    
+    <h1 class="post-title">Gabor和LogGabor滤波器</h1>
+
+    
+
+    <div class="post-meta">
+      <time datetime="2016-06-12" class="post-meta__date date">2016-06-12</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+            <font class="categories">
+            &#8226; 分类:
+            <a class="categories-link" href="/categories/study/">-study</a>
+            </font>
+          
+
+          
+             &#8226; 标签:
+            <font class="tags">
+              <a class="tags-link" href="/tags/image-processing-signal-processing/">-image processing -signal processing</a>
+            </font>
+          
+
+      </span>
+    </div>
+    
+    
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <h2 id="Gabor&#x6EE4;&#x6CE2;&#x5668;"><a href="#Gabor&#x6EE4;&#x6CE2;&#x5668;" class="headerlink" title="Gabor&#x6EE4;&#x6CE2;&#x5668;"></a>Gabor&#x6EE4;&#x6CE2;&#x5668;</h2><p>&#x3000;&#x3000;Gabor&#x6EE4;&#x6CE2;&#x5668;&#x662F;&#x4E00;&#x4E2A;&#x5E26;&#x901A;&#x6EE4;&#x6CE2;&#x5668;&#xFF0C;&#x5B9A;&#x4E49;&#x4E3A;&#x9AD8;&#x65AF;&#x6838;&#x4E0E;&#x6B63;&#x5F26;&#x4FE1;&#x53F7;&#x7684;&#x70B9;&#x79EF;&#x3002;</p>
+<h3 id="1-D-Gabor"><a href="#1-D-Gabor" class="headerlink" title="1-D Gabor"></a>1-D Gabor</h3><p>$$g(t)=kw(at)s(t)$$<br>&#x3000;&#x3000;1-D Gauss&#x6838;  $$w(t)=e^{-\pi t^{2}}$$<br>&#x3000;&#x3000;1-D &#x6B63;&#x5F26;&#x4FE1;&#x53F7;  $$s(t)=e^{j2\pi f_{0}t}$$</p>
+<p>&#x3000;&#x3000;&#x56DE;&#x987E;&#x4E00;&#x4E0B;&#x5085;&#x91CC;&#x53F6;&#x53D8;&#x6362;&#xFF0C;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x8868;&#x793A;&#x4E3A;&#x82E5;&#x5E72;&#x4E2A;&#x4E0D;&#x540C;&#x9891;&#x7387;&#x6B63;&#x5F26;&#x6CE2;&#x7684;&#x7EC4;&#x5408;&#xFF08;&#x76F8;&#x52A0;&#x6216;&#x8005;&#x79EF;&#x5206;&#xFF0C;&#x5BF9;&#x5E94;&#x79BB;&#x6563;&#x548C;&#x8FDE;&#x7EED;&#xFF09;&#x3002;&#x6240;&#x4EE5;&#x7A7A;&#x95F4;&#x57DF;&#x7684;&#x591A;&#x4E2A;&#x6CE2;&#x53E0;&#x52A0;&#xFF0C;&#x4F53;&#x73B0;&#x5728;&#x9891;&#x57DF;&#x4E2D;&#x662F;&#x82E5;&#x5E72;&#x4E2A;&#x6563;&#x70B9;&#xFF1B;&#x9891;&#x57DF;&#x4E2D;&#x7684;&#x57FA;&#x672C;&#x5143;&#x7D20;&#xFF0C;&#x5BF9;&#x5E94;&#x7A7A;&#x95F4;&#x57DF;&#x4E2D;&#x7684;&#x6B63;&#x5F26;&#x6CE2;&#x3002;</p>
+<p>&#x3000;&#x3000;1-D Fourier Transform  $$\hat{f}=\int_{-\infty }^{\infty }f(t)e^{-i2\pi tf }dt$$</p>
+<p>&#x3000;&#x3000;2-D Fourier Transform  $$\hat{f}(u,v)=\int \int f(x,y)e^{-i2\pi (ux+vy)}dxdy$$</p>
+<p>&#x3000;&#x3000;2-D Fourier Transform for Polar coordinates  </p>
+<p>$$G(k,\phi)=\int \int rg(r,\theta)e^{-j2\pi rkcos(\theta-\phi)}d\theta dr$$</p>
+<p>&#x3000;&#x3000;where  $x=rcos\theta$,$y=rsin\theta$,$u=kcos\phi$,$v=ksin\phi$,$\theta\in [0,2\pi]$,$r\in [0,\infty)$</p>
+<p>&#x3000;&#x3000;1-D Fourier Transform of Gabor  $$\hat{g}(f)=k\int_{-\infty }^{\infty }w(at)s(t)e^{-j2\pi ft }dt$$</p>
+<p>$$= \frac{k}{a}\hat{w}(\frac{f-f_{0}}{a})$$</p>
+<p>&#x3000;&#x3000;where  $$\hat{w}(f)=w(f)=e^{-\pi f^{2}}$$</p>
+<h3 id="2-D-Gabor"><a href="#2-D-Gabor" class="headerlink" title="2-D Gabor"></a>2-D Gabor</h3><p>$$g(x,y)=s(x,y)w_{r}(x,y)$$</p>
+<p>&#x3000;&#x3000;2-D Gauss&#x6838;<br> $$w_{r}(x,y)=Kexp(-\pi(a^{2}((x-x_0)cos\theta+(y-y_0)sin\theta)^{2}+b^{2}(-(x-x_0)sin\theta+(y-y_0)cos\theta)^{2}))$$</p>
+<p>&#x3000;&#x3000;2-D &#x6B63;&#x5F26;&#x4FE1;&#x53F7;  $$s(x,y)=exp(j(2\pi(u_0x+v_0y)+P))$$<br>&#x3000;&#x3000;2-D Fourier Transform of Gabor<br>$$\hat{g}(u,v)=\frac{K}{ab}exp(j(-2\pi(x_0(u-u_0)+y_0(v-v_0))+P))exp(-\pi(\frac{(u-u_0)^{2}_r}{a^{2}}+\frac{(v-v_0)^{2}_r}{b^{2}}))$$</p>
+<p>&#x3000;&#x3000;&#x4E0B;&#x9762;&#x662F;Gabor&#x6EE4;&#x6CE2;&#x5668;&#x5728;&#x7A7A;&#x95F4;&#x57DF;&#x4E2D;&#x5B9E;&#x90E8;&#x4E0E;&#x865A;&#x90E8;&#x7684;&#x8868;&#x793A;&#xFF0C;128x128pixels.<br><img src="/2016/06/12/Gabor/1.jpg" alt="1"></p>
+<p>&#x3000;&#x3000;&#x56E0;&#x4E3A;&#x53C2;&#x6570; $f_{0}$ &#x548C; $a$ &#xFF0C;Gabor&#x6EE4;&#x6CE2;&#x5668;&#x6709;&#x8F83;&#x5927;&#x7684;&#x76F4;&#x6D41;&#x5206;&#x91CF;(DC response)&#x3002;&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x6EE4;&#x6CE2;&#x5668;&#x6709;&#x76F4;&#x6D41;&#x5206;&#x91CF;&#xFF0C;&#x5B83;&#x610F;&#x5473;&#x7740;&#x5BF9;&#x4E8E;&#x56FE;&#x50CF;&#x4E2D;&#x7684;&#x5E73;&#x5766;&#x533A;&#x57DF;&#xFF0C;&#x6EE4;&#x6CE2;&#x5668;&#x54CD;&#x5E94;&#x53D6;&#x51B3;&#x4E8E;&#x8BE5;&#x533A;&#x57DF;&#x7684;&#x7070;&#x5EA6;&#x503C;&#x3002;&#x6240;&#x4EE5;&#x9AD8;&#x7070;&#x5EA6;&#x503C;&#x7684;&#x5E73;&#x5766;&#x533A;&#x57DF;&#x7ECF;&#x8FC7;&#x6EE4;&#x6CE2;&#x5668;&#x540E;&#x7684;&#x54CD;&#x5E94;&#x4ECD;&#x7136;&#x662F;&#x9AD8;&#x7684;&#xFF0C;&#x8FD9;&#x4E0E;&#x6211;&#x4EEC;&#x6240;&#x671F;&#x5F85;&#x7684;&#x9AD8;&#x54CD;&#x5E94;&#x53EA;&#x53D1;&#x751F;&#x5728;&#x8FB9;&#x7F18;/&#x89D2;&#x70B9;&#x4E0D;&#x76F8;&#x7B26;&#x3002;</p>
+<p>&#x3000;&#x3000;&#x6B63;&#x4EA4;&#x6EE4;&#x6CE2;&#x5668;&#x5BF9;&#x662F;&#x6307;&#x5E45;&#x5EA6;&#x54CD;&#x5E94;&#x76F8;&#x540C;&#xFF0C;&#x76F8;&#x4F4D;&#x76F8;&#x5DEE;90&#x5EA6;&#x7684;&#x4E24;&#x4E2A;&#x7EBF;&#x6027;&#x6EE4;&#x6CE2;&#x5668;&#xFF1B;Gabor&#x6EE4;&#x6CE2;&#x5668;&#x7684;&#x5B9E;&#x90E8;&#x6709;&#x76F4;&#x6D41;&#x5206;&#x91CF;&#xFF0C;&#x800C;&#x865A;&#x90E8;&#x6CA1;&#x6709;&#xFF0C;&#x4E25;&#x683C;&#x6765;&#x8BF4;&#x5E76;&#x4E0D;&#x662F;&#x6B63;&#x4EA4;&#x5BF9;&#x3002;&#x6B63;&#x4EA4;&#x6EE4;&#x6CE2;&#x5668;&#x5BF9;&#x8F93;&#x51FA;&#x7684;&#x5E73;&#x65B9;&#x548C;&#x88AB;&#x79F0;&#x4E3A;Local Energy&#x3002;</p>
+<h2 id="LogGabor&#x6EE4;&#x6CE2;&#x5668;"><a href="#LogGabor&#x6EE4;&#x6CE2;&#x5668;" class="headerlink" title="LogGabor&#x6EE4;&#x6CE2;&#x5668;"></a>LogGabor&#x6EE4;&#x6CE2;&#x5668;</h2><p>&#x3000;&#x3000;Gabor&#x6EE4;&#x6CE2;&#x5668;&#x540C;&#x65F6;&#x63D0;&#x4F9B;&#x4E86;&#x6781;&#x597D;&#x7684;&#x7A7A;&#x95F4;&#x548C;&#x9891;&#x7387;&#x4FE1;&#x606F;&#x7684;&#x5B9A;&#x4F4D;&#xFF0C;&#x7136;&#x800C;&#x6709;&#x4E24;&#x4E2A;&#x5F31;&#x70B9;&#x3002;&#x4E00;&#x662F;Gabor&#x6EE4;&#x6CE2;&#x5668;&#x7684;&#x5E26;&#x5BBD;&#x88AB;&#x9650;&#x5236;&#x5728;&#x63A5;&#x8FD1;one octave;&#x4E8C;&#x662F;&#x6709;&#x8F83;&#x5927;&#x7684;&#x76F4;&#x6D41;&#x5206;&#x91CF;&#x3002;<br>&#x3000;&#x3000;LogGabor&#x6EE4;&#x6CE2;&#x5668;&#x89E3;&#x51B3;&#x4E86;Gabor&#x5B58;&#x5728;&#x7684;&#x8FD9;&#x4E24;&#x4E2A;&#x95EE;&#x9898;&#x3002;&#x6211;&#x4EEC;&#x4E00;&#x822C;&#x5728;&#x9891;&#x57DF;&#x6784;&#x5EFA;LogGabor&#x6EE4;&#x6CE2;&#x5668;&#x3002;<br>$$G(f,\theta)=e^{-\frac{(log(f/fi))^{2}}{2(log(\sigma_{f}/fi))^{2}}}e^{-\frac{(\theta-\theta i)^{2}}{2\sigma^{2}}}$$</p>
+<h2 id="&#x53C2;&#x8003;&#x6587;&#x732E;"><a href="#&#x53C2;&#x8003;&#x6587;&#x732E;" class="headerlink" title="&#x53C2;&#x8003;&#x6587;&#x732E;"></a>&#x53C2;&#x8003;&#x6587;&#x732E;</h2><ol>
+<li>Self-Invertible 2D Log-Gabor Wavelets</li>
+<li>Robust Log-Gabor Filter for Ear Biometrics</li>
+<li>Sparse Edge Coding Using Over Complete Gabor Wavelets</li>
+<li>Tutorial on Gabor Filters</li>
+<li><a href="http://www.peterkovesi.com/matlabfns/PhaseCongruency/Docs/convexpl.html" target="_blank" rel="external">http://www.peterkovesi.com/matlabfns/PhaseCongruency/Docs/convexpl.html</a></li>
+<li><a href="http://dsp.stackexchange.com/questions/14199/gabor-filters-for-digital-image-processing" target="_blank" rel="external">http://dsp.stackexchange.com/questions/14199/gabor-filters-for-digital-image-processing</a></li>
+</ol>
+
+  </section>
+
+  
+  
+</article>
+
+
+            <footer class="footer">
+
+    <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno">Huno</a></span>
+    
+</footer>
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scale.fix.js"></script>
+    
+
+    
+
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            MathJax.Hub.Config({ 
+                tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
+            });
+        });
+    </script>
+
+
+    
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
+    
+    
+
+    <script src="/js/jquery.githubRepoWidget.min.js"></script>
+
+
+    <!--kill ie6 -->
+<!--[if IE 6]>
+  <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]--><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+
+</body>
+</html>

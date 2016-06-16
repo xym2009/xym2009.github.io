@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
     
@@ -36,12 +36,12 @@
     <link rel="stylesheet" href="/css/uno.css">
     <link rel="stylesheet" href="/css/highlight.css">
     <link rel="stylesheet" href="/css/archive.css">
-    <link rel="stylesheet" href="/css/china-social-icon.css">
+    <link rel="stylesheet" href="/css/china-social-icon.css"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
 </head>
 <body>
 
-    <span class="mobile btn-mobile-menu">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><span class="mobile btn-mobile-menu">
         <i class="icon icon-list btn-mobile-menu__icon"></i>
         <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
     </span>
@@ -78,6 +78,9 @@
               
                 
                 <li class="navigation__item"><a href="/categories/eassy" title="" class="">所想</a></li>
+              
+                
+                <li class="navigation__item"><a href="/关于" title="" class="">关于</a></li>
               
                 
                 <li class="navigation__item"><a href="/archive" title="" class="">归档</a></li>
@@ -133,6 +136,7 @@ classes that you can use:
 -------------------------------->
 
 <!-- add social info here -->
+
 
 
 
@@ -230,10 +234,31 @@ classes that you can use:
 
     
     
+
+    <script src="/js/jquery.githubRepoWidget.min.js"></script>
+
+
     <!--kill ie6 -->
 <!--[if IE 6]>
   <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
-<![endif]-->
+<![endif]--><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 
 </body>
 </html>
