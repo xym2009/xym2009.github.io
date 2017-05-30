@@ -47,7 +47,7 @@
 					
 						<li><a href="/categories/story">Story</a></li>
 					
-						<li><a href="/categories/essay">Publication</a></li>
+						<li><a href="/关于">About</a></li>
 					
 					<li>
 					
@@ -83,11 +83,6 @@
 </header>
 	<div class="article-content">
 		
-		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-		
-		</div>
 		
 		<p>&#x3000;&#x3000;&#x5728;&#x5FC3;&#x91CC;&#x5FF5;&#x53E8;&#x4E86;&#x5F88;&#x4E45;&#x7684;&#x5267;&#xFF0C;&#x7EC8;&#x4E8E;&#x770B;&#x4E86;&#xFF0C;&#x8702;&#x5DE2;&#x5267;&#x573A;&#x3002;</p>
 <p>&#x3000;&#x3000;&#x8BF4;&#x8D77;&#x6765;&#x8FD8;&#x662F;&#x7B2C;&#x4E00;&#x6B21;&#x770B;&#x620F;&#x5267;&#xFF0C;&#x8FD9;&#x79CD;&#x821E;&#x53F0;&#x7684;&#x8868;&#x73B0;&#x65B9;&#x5F0F;&#x548C;&#x6F14;&#x5458;&#x4EEC;&#x5982;&#x6B64;&#x8FD1;&#x7684;&#x8DDD;&#x79BB;&#x7ED9;&#x6211;&#x5E26;&#x6765;&#x7684;&#x51B2;&#x51FB;&#x662F;&#x5982;&#x6B64;&#x7684;&#x5F3A;&#x70C8;&#x800C;&#x76F4;&#x63A5;&#x3002;</p>
@@ -144,11 +139,6 @@
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目录</strong>
-  
-  </div>
-
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
@@ -158,9 +148,9 @@
 	<p class="asidetitle">分类</p>
 		<ul>
 		
-			<li><a href="/categories/essay/" title="essay">essay<sup>8</sup></a></li>
+			<li><a href="/categories/essay/" title="essay">essay<sup>9</sup></a></li>
 		
-			<li><a href="/categories/story/" title="story">story<sup>2</sup></a></li>
+			<li><a href="/categories/story/" title="story">story<sup>1</sup></a></li>
 		
 		</ul>
 </div>
@@ -179,17 +169,11 @@
 		
 			<li><a href="/tags/review/" title="review">review<sup>1</sup></a></li>
 		
-			<li><a href="/tags/travel/" title="travel">travel<sup>1</sup></a></li>
-		
-			<li><a href="/tags/travel-autumn/" title="travel autumn">travel autumn<sup>0</sup></a></li>
+			<li><a href="/tags/travel/" title="travel">travel<sup>2</sup></a></li>
 		
 		</ul>
 </div>
 
-
-  <div class="rsspart">
-	<a href="null" target="_blank" title="rss">RSS 订阅</a>
-</div>
 
 </aside>
 </div>
@@ -243,8 +227,6 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
@@ -336,6 +318,29 @@ $(document).ready(function(){
     (document.getElementsByTagName('head')[0] 
     || document.getElementsByTagName('body')[0]).appendChild(ds);
   })();
+</script> 
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
 </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
@@ -353,9 +358,7 @@ $(document).ready(function(){
 <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 <!-- End: Injected MathJax -->
-<!-- hexo-inject:end --> 
-
-
+<!-- hexo-inject:end -->
 
 
 

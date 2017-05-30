@@ -47,7 +47,7 @@
 					
 						<li><a href="/categories/story">Story</a></li>
 					
-						<li><a href="/categories/essay">Publication</a></li>
+						<li><a href="/关于">About</a></li>
 					
 					<li>
 					
@@ -83,11 +83,6 @@
 </header>
 	<div class="article-content">
 		
-		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#2016’s-plan"><span class="toc-number">1.</span> <span class="toc-text">2016’s plan</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2016-6-New-Start"><span class="toc-number">2.</span> <span class="toc-text">2016/6 New Start</span></a></li></ol>
-		</div>
 		
 		<h2 id="2016&#x2019;s-plan"><a href="#2016&#x2019;s-plan" class="headerlink" title="2016&#x2019;s plan"></a>2016&#x2019;s plan</h2><p>&#x3000;&#x3000;&#x9996;&#x5148;&#x662F;&#x4ECA;&#x5E74;&#x5E74;&#x521D;&#x5728;&#x65B0;&#x6D6A;&#x5FAE;&#x535A;&#x5199;&#x7684;2016&#x8BA1;&#x5212;&#x3002;</p>
 <p>&#x3000;&#x3000;&#x5B66;&#x672F;&#xFF1A;&#x5F53;&#x7136;&#x5C31;&#x662F;&#x5F00;&#x9898;&#x3002;&#x5F00;&#x9898;&#x9700;&#x8981;&#x6709;&#x6587;&#x7AE0;&#x554A;&#xFF0C;&#x6240;&#x4EE5;&#x76EE;&#x6807;&#x5C31;&#x662F;1&#x671F;&#x520A;&#x52A0;1&#x4F1A;&#x8BAE;&#x5427;&#xFF0C;&#x5F00;&#x9898;&#x5F53;&#x7136;&#x4E5F;&#x5F97;&#x8FC7;&#x3002;</p>
@@ -154,11 +149,6 @@
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目录</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#2016’s-plan"><span class="toc-number">1.</span> <span class="toc-text">2016’s plan</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2016-6-New-Start"><span class="toc-number">2.</span> <span class="toc-text">2016/6 New Start</span></a></li></ol>
-  </div>
-
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
@@ -168,9 +158,9 @@
 	<p class="asidetitle">分类</p>
 		<ul>
 		
-			<li><a href="/categories/essay/" title="essay">essay<sup>8</sup></a></li>
+			<li><a href="/categories/essay/" title="essay">essay<sup>9</sup></a></li>
 		
-			<li><a href="/categories/story/" title="story">story<sup>2</sup></a></li>
+			<li><a href="/categories/story/" title="story">story<sup>1</sup></a></li>
 		
 		</ul>
 </div>
@@ -189,17 +179,11 @@
 		
 			<li><a href="/tags/review/" title="review">review<sup>1</sup></a></li>
 		
-			<li><a href="/tags/travel/" title="travel">travel<sup>1</sup></a></li>
-		
-			<li><a href="/tags/travel-autumn/" title="travel autumn">travel autumn<sup>0</sup></a></li>
+			<li><a href="/tags/travel/" title="travel">travel<sup>2</sup></a></li>
 		
 		</ul>
 </div>
 
-
-  <div class="rsspart">
-	<a href="null" target="_blank" title="rss">RSS 订阅</a>
-</div>
 
 </aside>
 </div>
@@ -253,8 +237,6 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
@@ -346,6 +328,29 @@ $(document).ready(function(){
     (document.getElementsByTagName('head')[0] 
     || document.getElementsByTagName('body')[0]).appendChild(ds);
   })();
+</script> 
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
 </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
@@ -363,9 +368,7 @@ $(document).ready(function(){
 <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 <!-- End: Injected MathJax -->
-<!-- hexo-inject:end --> 
-
-
+<!-- hexo-inject:end -->
 
 
 
