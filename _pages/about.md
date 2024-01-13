@@ -16,7 +16,10 @@ My current research mainly lies in image registration and 3D reconstruction usin
 
 Recent news
 ======
-2023/11: A paper has been accepted by Remote Sensing, which focuses on on-orbit geometric rectification of micro-satellites.    
+2023/11: A paper has been accepted by Remote Sensing, which focuses on on-orbit geometric rectification of micro-satellites. 
+
 2023/11: I was promoted to IEEE Senior Member from 2023/4. 
+
 2023/10: I joined the editoral board of Journal of Radar. 
+
 2023/4:  I was promoted to Associate Professor from 2023/4. 
