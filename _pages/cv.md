@@ -11,30 +11,31 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Department of Electronic Engineering, Tsinghua University, 2013
+* Ph.D in School of Electronic, Electrical and Communication Engineering, University of Chinese Academy of Sciences, 2018
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* 2018.7-2023.3: Assistant Professor
+  * Aerospace Information Research Institute, Chinese Academy of Sciences
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2023.3-Current: Associate Professor
+  * Aerospace Information Research Institute, Chinese Academy of Sciences
+  * Duties included: Academic leader of remote sensing precise processing
   
-Skills
+Academic activity
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* IEEE Senior Member (2023)
+* Young Editors of Journal of Radar
+* Journal Reviewer
+  * IEEE Transactions on Geoscience and Remote Sensing (9)
+  * IEEE Geoscience and Remote Sensing Letters (46)
+  * IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (12)
+  * ISPRS Journal of Photometry
+  * Remote Sensing ()
+  * Remote Sensing Letters (12)
+  * International Journal of Remote Sensing (5)
 
 Publications
 ======
@@ -54,6 +55,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
