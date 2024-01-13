@@ -37,7 +37,7 @@ Academic activity
   * Remote Sensing Letters (12)
   * International Journal of Remote Sensing (5)
 
-Publications
+Selected publications (* denotes corresponding author)
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
