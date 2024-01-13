@@ -18,7 +18,6 @@ Work experience
 ======
 * 2018.7-2023.3: Assistant Professor
   * Aerospace Information Research Institute, Chinese Academy of Sciences
-  * Duties included: Tagging issues
 
 * 2023.3-Current: Associate Professor
   * Aerospace Information Research Institute, Chinese Academy of Sciences
@@ -32,9 +31,9 @@ Academic activity
   * IEEE Transactions on Geoscience and Remote Sensing
   * IEEE Geoscience and Remote Sensing Letters
   * IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
-  * ISPRS Journal of Photometry
+  * ISPRS Journal of Photogrammetry and Remote Sensing
+  * International Journal of Applied Earth Observation and Geoinformation
   * Remote Sensing
-  * Remote Sensing Letters
   * International Journal of Remote Sensing
   * ...
 
