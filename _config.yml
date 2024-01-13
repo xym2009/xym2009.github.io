@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuming Xiang (向俞明)"
+  name             : "Yuming Xiang"
   avatar           : "profile.png"
   bio              : "Associate Professor in AIRCAS."
   location         : "Beijing, China"
-  employer         :  Aerospace Information Research Institute, Chinese Academy of Sciences
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  employer         :  AIR, CAS
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=JOIva1oAAAAJ&view_op=list_works"
-  email            :  z199208081010@163.com/xiangym@aircas.ac.cn
+  email            :  z199208081010@163.com
   researchgate     :  "https://www.researchgate.net/profile/Yuming-Xiang-2"
   uri              :
   bitbucket        :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/xym2009"
+  github           : "xym2009"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
