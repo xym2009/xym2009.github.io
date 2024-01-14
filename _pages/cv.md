@@ -14,15 +14,28 @@ Education
 * B.S. in Department of Electronic Engineering, Tsinghua University, 2013
 * Ph.D in School of Electronic, Electrical and Communication Engineering, University of Chinese Academy of Sciences, 2018
 
-Work experience
-======
-* 2018.7-2023.3: Assistant Professor
-  * Aerospace Information Research Institute, Chinese Academy of Sciences
+Research Experience
+======                                                       
+* Aerospace Information Research Institute, Chinese Academy of Sciences
+  * 2018.7-2023.3: Assistant Professor
+  * 2023.3-Current: Associate Professor
+* Research on multi-sensor remote sensing image registration
+  * Designed a registration framework with remote sensing imaging mechanism as its core; 
+  * Proposed robust algorithms on SAR-customized geocoding, sensor-dependent feature extraction and geography-based local matching under the designed framework;
+  * Solved several major problems of optical and SAR image registration: significant radiometric and geometric differences, severe speckle noise in SAR images, matching efficiency of large-scene images;
+  * Shared codes and datasets, promoting the development of related research.
+* Research on 3D reconstruction of multi-view optical images
+  * Focused on very high-resolution images of Chinese optical satellites, which present poorer orbit and attitude errors compared to advanced Worldview satellites;
+  * Proposed robust algorithms on universal epipolar image generation, edge-preserving disparity estimation, stereo matching on textureless and occluded regions.  
+* Research on on-board geometric processing
+  * Focused on efficient implementation of geometric rectification on edge computing devices. 
+  * Proposed robust algorithms to rectify micro-satellite images within limited computing power and compressed reference database. 
+  *	On-board verification on the platforms of the Qilu-2/3 micro-nano optical satellites;
+*	Advanced remote sensing product subsystem (Academic leader)
+  * Developed software for optical/SAR orthorectification, optical/SAR image mosaicking, panchromatic/multi-spectral/infrared image fusion and 3D reconstruction;
+  * Customized support for multiple ground processing systems of different satellites;
+  * Supporting Gaofen-3 01/02/03 (the China’s first civilian SAR satellite), SDGSAT-1 (the China’s first sustainable development satellite), Qilu-1/Haisi-1/Chaohu-1 (the China’s commercial micro-SAR satellites), etc.
 
-* 2023.3-Current: Associate Professor
-  * Aerospace Information Research Institute, Chinese Academy of Sciences
-  * Duties included: Academic leader of remote sensing precise processing
-  
 Academic activity
 ======
 * IEEE Senior Member
@@ -58,6 +71,35 @@ Selected publications
 18.	Linhui Wang, **Yuming Xiang(corresponding author)**, Hongjian You, Xiaolan Qiu, Kun Fu, "A Robust Multi-scale Edge Detection Method for Accurate SAR Image Registration", _**IEEE Geoscience and Remote Sensing Letters**_, 2023, 10.1109/LGRS.2023.3279141.
 19.	Linhui Wang, **Yuming Xiang(corresponding author)**, Zhenzhou Wang, Hongjian You, Yuxin Hu, "On-Board Geometric Rectification for Micro-Satellite Based on Lightweight Feature Database", _**Remote Sensing**_, 15 (22), 5333 2023.
 
-  
+Authorized Chinese Patents
+======
+* SAR image correction method based on improved feature vector background matching, ZL 2017 1 0594476.6, 2/4.
+* Remote sensing data height calculation method based on object matching height deviation iterative correction, ZL 2020 1 0409796.1, 5/5.
+* Synchronized optical satellite image stabilization method using cloud movement characteristics, ZL 2022 1 0791079.9, 5/5.
+* Ship trajectory based sequence image stabilization method, device, equipment and medium, ZL 2022 1 0873843.7, 4/5.
+* Synchronized optical satellite geometric correction method based on coastline data, ZL 2022 1 0888169.X, 4/6.
+* True SAR ortho-image generation method based on refined layover region, ZL 2022 1 0828983.2, 5/5.
+* Target level change detection method based on dense matching of optical and SAR images, ZL 2023 1 0076260.6, 2/3.
+* On-orbit geometric correction method and device for micro-nano satellite image, ZL 2023 1 0307607.3, 1/4
+
+Major Projects
+=======
+*	National Natural Science Foundation of China: Research on Dense Matching of SAR and Optical Remote Sensing Images Based on Optical Flow Method and Epipolar Constraint (PI).
+*	Key Research Program of Frontier Sciences, Chinese Academy of Science: Fine-grained 3D Reconstruction of Massive Multi-source Remote Sensing Data (PI).
+*	Background Pre-research Project: 3D Reconstruction and Recognition of High-resolution Images (Co-PI).
+*	National Major Engineering Task: Ground Processing Systems for Multiple Satellite Projects (Important Member).
+*	Leading Special Project of Chinese Academy of Sciences: Data Processing System of SDGSAT-1 satellite (Important Member).
+*	Transverse Project from China Resource Satellite Center: Data Processing System of Gaofen-3 satellites (Important Member).
+
+Awards
+=======
+* Rising star of Radar (2022)
+* Excellent PhD Graduate Scholarship from the "Zero to One Original Innovation Plan" of the Chinese Academy of Sciences (2019)
+* Excellent Doctoral Thesis of Chinese Academy of Sciences (2019)
+* President Award of Chinese Academy of Sciences (2018)
+* Excellent Graduate of Beijing (2018)
+* Outstanding Graduate of the University of Chinese Academy of Sciences (2018)
+* Excellent Undergraduate Thesis of the Electronic Engineering Department of Tsinghua University (2013)
+
   
 
