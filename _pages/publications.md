@@ -12,19 +12,22 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 2023
 ======
-* __[j27]__
-* __[j26]__ 
-* __[c12]__ On-Orbit Geometric Rectification for Micro-Satellite Based On Lightweight Feature Database, Linhui Wang, __Yuming Xiang*__, Feng Wang, Yuxin Hu, Hongjian You, in Proceedings of 2023 IEEE International Geoscience and Remote Sensing Symposium (Oral, IGARSS). [pdf]
-* __[c11]__ A Coarse-to-fine Geometric Calibration Framework of RPCs for Remote Sensing Images, Niangang Jiao, Feng Wang, __Yuming Xiang__, Hongjian You, in Proceedings of 2023 IEEE International Geoscience and Remote Sensing Symposium (IGARSS). [pdf]
-* __[j25]__ Semi-Supervised Semantic Segmentation With Certainty-Aware Consistency Training for Remote Sensing Imagery, Yongjie Guo, Feng Wang, __Yuming Xiang__ Hongjian You, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 16, 2900 - 2914, 2023. [pdf]
-* __[j24]__ True Digital Ortho Maps Production for Target Structure Information of SAR Remote Sensing Images, Yuxin Hu, Feng Wang, Niangang Jiao, __Yuming Xiang__, Fangjian Liu, Journal of Electronics & Information Technology (电子信息学报), 2023. [pdf]
-
+* __[j30]__ Linhui Wang, __Yuming Xiang*__, Zhenzhou Wang, Hongjian You, Yuxin Hu. On-Board Geometric Rectification for Micro-Satellite Based on Lightweight Feature Database, Remote Sensing, 15 (22), 5333, 2023. [pdf](https://www.mdpi.com/2072-4292/15/22/5333) (IF-5.0, JCR-Q1, 中科院2区)
+* __[j29]__ Niangang Jiao, Feng Wang, Yuxin Hu, __Yuming Xiang__, Rui Liu, Hongjian You. SAR True Digital Ortho Maps Production for Target Geometric Structure Preservation, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 16, 10279 - 10286, 2023. [pdf](https://ieeexplore.ieee.org/abstract/document/10298643) (IF-5.5, JCR-Q1, 中科院2区top)
+* __[j28]__ Haoyuan Li, Fang Xu, Wen Yang, Huai Yu, __Yuming Xiang__, Haijian Zhang, Gui-Song Xia. Learning to Find the Optimal Correspondence Between SAR and Optical Image Patches, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 16, 9816 - 9830, 2023. [pdf](https://ieeexplore.ieee.org/abstract/document/10286162) (IF-5.5, JCR-Q1, 中科院2区top)
+* __[j27]__ __Yuming Xiang__, Xuanqi Wang, Feng Wang, Hongjian You, Xiaolan Qiu, Kun Fu. A Global-to-local Algorithm for High-resolution Optical and SAR Image Registration, IEEE Transactions on Geoscience and Remote Sensing, 2023. [pdf](https://ieeexplore.ieee.org/abstract/document/10233894) (IF-8.2, JCR-Q1, 中科院1区)
+* __[j26]__ Linhui Wang, __Yuming Xiang*__, Hongjian You, Xiaolan Qiu, Kun Fu. A Robust Multi-scale Edge Detection Method for Accurate SAR Image Registration, IEEE Geoscience and Remote Sensing Letters, 2023. [pdf] (IF-4.8, JCR-Q1, 中科院3区)
+* __[j25]__ Yongjie Guo, Feng Wang, __Yuming Xiang__ Hongjian You. Semi-Supervised Semantic Segmentation With Certainty-Aware Consistency Training for Remote Sensing Imagery, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 16, 2900 - 2914, 2023. [pdf](https://ieeexplore.ieee.org/abstract/document/10066529/) (IF-5.5, JCR-Q1, 中科院2区top)
+* __[j24]__ Yuxin Hu, Feng Wang, Niangang Jiao, __Yuming Xiang__, Fangjian Liu. True Digital Ortho Maps Production for Target Structure Information of SAR Remote Sensing Images, Journal of Electronics & Information Technology (电子信息学报), 2023. [pdf](https://jeit.ac.cn/en/article/doi/10.11999/JEIT221341) 
+* __[c12]__ Linhui Wang, __Yuming Xiang*__, Feng Wang, Yuxin Hu, Hongjian You. On-Orbit Geometric Rectification for Micro-Satellite Based On Lightweight Feature Database, in Proceedings of 2023 IEEE International Geoscience and Remote Sensing Symposium (__Oral__, IGARSS). [pdf]
+* __[c11]__ Niangang Jiao, Feng Wang, __Yuming Xiang__, Hongjian You. A Coarse-to-fine Geometric Calibration Framework of RPCs for Remote Sensing Images, in Proceedings of 2023 IEEE International Geoscience and Remote Sensing Symposium (IGARSS). [pdf]
+  
 2022
 ======
-* __[j23]__ A Geometry-Aware Registration Algorithm for Multiview High-Resolution SAR Images, __Yuming Xiang__, Niangang Jiao, Rui Liu, Feng Wang, Hongjian You, Xiaolan Qiu, Kun Fu. IEEE Transactions on Geoscience and Remote Sensing, accepted, 2022. [pdf]
-* __[j22]__ Multi-Task Learning of Relative Height Estimation and Semantic Segmentation from Single Airborne RGB Images, Min Lu, Jiayin Liu, Feng Wang, __Yuming Xiang__. Remote Sensing, 14 (14), 1350, 2022. [pdf] (IF-5.0, JCR-Q1,中科院2区)
-* __[j21]__ A Confidence-Aware Cascade Network for Multi-Scale Stereo Matching of Very-High-Resolution Remote Sensing Images, Rongshu Tao, __Yuming Xiang*__, Hongjian You, Remote Sensing, 14 (7), 1667, 2022. [pdf] (IF-5.0, JCR-Q1,中科院2区)
-* __[j20]__ CFNet: A cross fusion network for joint land cover classification using optical and SAR images, Wenchao Kang, __Yuming Xiang__, Feng Wang, Hongjian You, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 15, 1562 - 1574, 2022. [pdf]
+* __[j23]__ __Yuming Xiang__, Niangang Jiao, Rui Liu, Feng Wang, Hongjian You, Xiaolan Qiu, Kun Fu. A Geometry-Aware Registration Algorithm for Multiview High-Resolution SAR Images, IEEE Transactions on Geoscience and Remote Sensing, 60, 1-18, 2022. [pdf](https://www.researchgate.net/publication/363386050_A_Geometry-Aware_Registration_Algorithm_for_Multi-View_High-Resolution_SAR_Images) (IF-8.2, JCR-Q1, 中科院1区)
+* __[j22]__ Min Lu, Jiayin Liu, Feng Wang, __Yuming Xiang__. Multi-Task Learning of Relative Height Estimation and Semantic Segmentation from Single Airborne RGB Images, Remote Sensing, 14 (14), 1350, 2022. [pdf](https://www.mdpi.com/2072-4292/14/14/3450) (IF-5.0, JCR-Q1, 中科院2区)
+* __[j21]__ Rongshu Tao, __Yuming Xiang*__, Hongjian You. A Confidence-Aware Cascade Network for Multi-Scale Stereo Matching of Very-High-Resolution Remote Sensing Images, Remote Sensing, 14 (7), 1667, 2022. [pdf](https://www.mdpi.com/2072-4292/14/7/1667) (IF-5.0, JCR-Q1, 中科院2区)
+* __[j20]__ Wenchao Kang, __Yuming Xiang__, Feng Wang, Hongjian You. CFNet: A Cross Fusion Network for Joint Land Cover Classification Using Optical and SAR Images, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 15, 1562 - 1574, 2022. [pdf](https://ieeexplore.ieee.org/abstract/document/9690014) (IF-5.5, JCR-Q1, 中科院2区top)
 
 2021
 ======
