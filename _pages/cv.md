@@ -90,6 +90,8 @@ Major Projects
 *	National Major Engineering Task: Ground Processing Systems for Multiple Satellite Projects (Important Member).
 *	Leading Special Project of Chinese Academy of Sciences: Data Processing System of SDGSAT-1 satellite (Important Member).
 *	Transverse Project from China Resource Satellite Center: Data Processing System of Gaofen-3 satellites (Important Member).
+*	Transverse Project from Enterprise: Geolocation accuracy improvement of micro-SAR satellites (PI).
+*	Transverse Project from Enterprise: Real-time fusion of optical and SAR images. (PI).
 
 Awards
 =======
