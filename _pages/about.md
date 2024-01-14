@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an Associate Professor with the Key Laboratory of Technology in Geo-spatial Information Processing and Application Systems, Aerospace Information Research Institute, Chinese Academy of Sciences, Beijing, China. 
+I am currently an Associate Professor with the Key Laboratory of Technology in Geo-spatial Information Processing and Application Systems, _Aerospace Information Research Institute, Chinese Academy of Sciences_, Beijing, China. 
 
-I received my B.S. degree in Department of Electronic Engineering, Tsinghua University, 2013, and my Ph.D degree in School of Electronic, Electrical and Communication Engineering, University of Chinese Academy of Sciences, 2018. I received the Excellent Doctoral Dissertation Award of Chinese Academy of Sciences in 2019. 
+I received my B.S. degree in Department of Electronic Engineering, _Tsinghua University_, 2013, and my Ph.D degree in School of Electronic, Electrical and Communication Engineering, _University of Chinese Academy of Sciences_, 2018. 
+
+I received the _Excellent Doctoral Dissertation Award of Chinese Academy of Sciences_ in 2019. 
 
 My current research mainly lies in image registration and 3D reconstruction using multi-sensor remote sensing images. 
 
