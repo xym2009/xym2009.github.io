@@ -68,7 +68,7 @@ Selected publications
 15.	Rongshu Tao, **Yuming Xiang(corresponding author)**, Hongjian You, "A Confidence-Aware Cascade Network for Multi-Scale Stereo Matching of Very-High-Resolution Remote Sensing Images", _**Remote Sensing**_, 14(7), 1667, 2022.
 16.	Rongshu Tao, **Yuming Xiang(corresponding author)**, Hongjian You, "An Edge-Sense Bidirectional Pyramid Network for Stereo Matching of VHR Remote Sensing Images", _**Remote Sensing**_, 12(24), 4025, 2020.
 17.	Xuanqi Wang, Feng Wang, **Yuming Xiang(corresponding author)**, Hongjian You, "A General Framework of Remote Sensing Epipolar Image Generation", _**Remote Sensing**_, 13(22), 4539, 2021.
-18.	Linhui Wang, **Yuming Xiang(corresponding author)**, Hongjian You, Xiaolan Qiu, Kun Fu, "A Robust Multi-scale Edge Detection Method for Accurate SAR Image Registration", _**IEEE Geoscience and Remote Sensing Letters**_, 2023, 10.1109/LGRS.2023.3279141.
+18.	Linhui Wang, **Yuming Xiang(corresponding author)**, Hongjian You, Xiaolan Qiu, Kun Fu, "A Robust Multi-scale Edge Detection Method for Accurate SAR Image Registration", _**IEEE Geoscience and Remote Sensing Letters**_, 2023.
 19.	Linhui Wang, **Yuming Xiang(corresponding author)**, Zhenzhou Wang, Hongjian You, Yuxin Hu, "On-Board Geometric Rectification for Micro-Satellite Based on Lightweight Feature Database", _**Remote Sensing**_, 15 (22), 5333 2023.
 
 Authorized Chinese Patents
