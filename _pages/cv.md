@@ -34,7 +34,7 @@ Research Experience
 *	Advanced remote sensing product subsystem (Academic leader)
     * Developed software for optical/SAR orthorectification, optical/SAR image mosaicking, panchromatic/multi-spectral/infrared image fusion and 3D reconstruction;
     * Customized support for multiple ground processing systems of different satellites;
-    * Supporting Gaofen-3 01/02/03 (the China’s first civilian SAR satellite), SDGSAT-1 (the China’s first sustainable development satellite), Qilu-1/Haisi-1/Chaohu-1 (the China’s commercial micro-SAR satellites), etc.
+    * Supporting Gaofen-3 01/02/03 (the China’s first civilian SAR satellite), SDGSAT-1 (the China’s first sustainable development satellite), Qilu-1/Haisi-1 (the China’s commercial micro-SAR satellites), etc.
 
 Academic activity
 ======
@@ -86,7 +86,6 @@ Major Projects
 =======
 *	National Natural Science Foundation of China: Research on Dense Matching of SAR and Optical Remote Sensing Images Based on Optical Flow Method and Epipolar Constraint (PI).
 *	Key Research Program of Frontier Sciences, Chinese Academy of Science: Fine-grained 3D Reconstruction of Massive Multi-source Remote Sensing Data (PI).
-*	Background Pre-research Project: 3D Reconstruction and Recognition of High-resolution Images (Co-PI).
 *	National Major Engineering Task: Ground Processing Systems for Multiple Satellite Projects (Important Member).
 *	Leading Special Project of Chinese Academy of Sciences: Data Processing System of SDGSAT-1 satellite (Important Member).
 *	Transverse Project from China Resource Satellite Center: Data Processing System of Gaofen-3 satellites (Important Member).
