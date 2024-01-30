@@ -9,7 +9,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 2024
 ======
-* __[j31]__ Xuanqi Wang, Liting Jiang, Feng Wang, Hongjian You, __Yuming Xiang__. Disparity Refinement for Stereo Matching of High-Resolution Remote Sensing Images Based on GIS Data, Remote Sensing, 2024. [pdf] (IF-5.0, JCR-Q1, 中科院2区)
+* __[j31]__ Xuanqi Wang, Liting Jiang, Feng Wang, Hongjian You, __Yuming Xiang__. Disparity Refinement for Stereo Matching of High-Resolution Remote Sensing Images Based on GIS Data, Remote Sensing, 16 (3), 487, 2024. [pdf](https://www.mdpi.com/2072-4292/16/3/487) (IF-5.0, JCR-Q1, 中科院2区)
 
 2023
 ======
