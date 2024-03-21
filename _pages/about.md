@@ -22,6 +22,4 @@ Recent news
 
 2024/3: A paper has been accepted as an Oral presentation in IGARSS 2024, titled 'UNSUPERVISED STEREO MATCHING NETWORK FOR VHR REMOTE SENSING IMAGES BASED ON ERROR PREDICTION'
 
-2024/3: A paper has been accepted as a poster presentation in ICME 2024, titled ''
-
 2024/1: A paper has been accepted by Remote Sensing, which focuses on disparity optimization using open-source GIS data.
