@@ -40,6 +40,7 @@ Academic activity
 ======
 * IEEE Senior Member
 * Editorial Board of Journal of Radar (雷达学报)
+* Leading Guest Editor of a special issue on Remote Sensing
 * Journal Reviewer
   * IEEE Transactions on Geoscience and Remote Sensing
   * IEEE Geoscience and Remote Sensing Letters
