@@ -31,15 +31,15 @@ Research Experience
   * Focused on efficient implementation of geometric rectification on edge computing devices; 
   * Proposed robust algorithms to rectify micro-satellite images within limited computing power and compressed reference database; 
   *	On-board verification on the platforms of the Qilu-2/3 micro-nano optical satellites.
-*	Advanced remote sensing product subsystem (Academic leader)
+*	Advanced remote sensing product subsystem
     * Developed software for optical/SAR orthorectification, optical/SAR image mosaicking, panchromatic/multi-spectral/infrared image fusion and 3D reconstruction;
-    * Customized support for multiple ground processing systems of different satellites;
-    * Supporting Gaofen-3 01/02/03 (the China’s first civilian SAR satellite), SDGSAT-1 (the China’s first sustainable development satellite), Qilu-1/Haisi-1 (the China’s commercial micro-SAR satellites), etc.
+    * Customized support for multiple ground processing systems of several major satellites in China;
+    * Supporting Gaofen-3 (the China’s first civilian SAR satellite), SDGSAT-1 (the China’s first sustainable development satellite), Qilu-1/Haisi-1 (the China’s commercial micro-SAR satellites), etc.
 
 Academic activity
 ======
 * IEEE Senior Member
-* Youth Editorial Board of Journal of Radar
+* Editorial Board of Journal of Radar (雷达学报)
 * Journal Reviewer
   * IEEE Transactions on Geoscience and Remote Sensing
   * IEEE Geoscience and Remote Sensing Letters
@@ -89,8 +89,7 @@ Major Projects
 *	National Major Engineering Task: Ground Processing Systems for Multiple Satellite Projects (Important Member).
 *	Leading Special Project of Chinese Academy of Sciences: Data Processing System of SDGSAT-1 satellite (Important Member).
 *	Transverse Project from China Resource Satellite Center: Data Processing System of Gaofen-3 satellites (Important Member).
-*	Transverse Project from Enterprise: Geolocation accuracy improvement of micro-SAR satellites (PI).
-*	Transverse Project from Enterprise: Real-time fusion of optical and SAR images. (PI).
+*	...
 
 Awards
 =======
