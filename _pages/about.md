@@ -18,6 +18,8 @@ My current research mainly lies in image registration and 3D reconstruction usin
 
 Recent news
 ======
+2024/4: I have organized a special issue on [Deep Learning for Multimodal Remote Sensing Image Registration](https://www.mdpi.com/journal/remotesensing/special_issues/5Q4GTM9Z8X) in Remote Sensing with Prof. Dr. [Yuanxin Ye](https://faculty.swjtu.edu.cn/yeyuanxin/zh_CN/index.htm), Prof. Dr. [Wen Yang](http://eis.whu.edu.cn/ryDetail.shtml?rsh=00200590), Prof. Dr. [Deliang Xiang](https://cist.buct.edu.cn/2020/1015/c8723a133549/page.htm) and Dr. Ling Wan.
+
 2024/3: A paper has been accepted by 雷达学报 (Journal of Radars), my first journal paper in Chinese!
 
 2024/3: A paper has been accepted as an Oral presentation in IGARSS 2024, titled 'UNSUPERVISED STEREO MATCHING NETWORK FOR VHR REMOTE SENSING IMAGES BASED ON ERROR PREDICTION'
