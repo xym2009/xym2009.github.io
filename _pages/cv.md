@@ -40,7 +40,7 @@ Academic activity
 ======
 * IEEE Senior Member
 * Editorial Board of Journal of Radar (雷达学报)
-* Leading Guest Editor of a special issue on Remote Sensing
+* Leading Guest Editor of a special issue ([Deep Learning for Multimodal Remote Sensing Image Registration](https://www.mdpi.com/journal/remotesensing/special_issues/5Q4GTM9Z8X)) on Remote Sensing
 * Journal Reviewer
   * IEEE Transactions on Geoscience and Remote Sensing
   * IEEE Geoscience and Remote Sensing Letters
