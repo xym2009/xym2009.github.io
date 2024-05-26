@@ -18,6 +18,9 @@ My current research mainly lies in image registration and 3D reconstruction usin
 
 Recent news
 ======
+2024/5: My first Highly Cited Paper: OS-SIFT
+![OS-SIFT高被引](https://github.com/xym2009/xym2009.github.io/assets/19380078/3fd94b7f-009d-43f7-b861-c219c8cecdbd)
+
 2024/5: I was nominated as one of IEEE GRSL Best Reviewers (2023).
 
 2024/4: I have organized a special issue on [Deep Learning for Multimodal Remote Sensing Image Registration](https://www.mdpi.com/journal/remotesensing/special_issues/5Q4GTM9Z8X) in Remote Sensing with Prof. Dr. [Yuanxin Ye](https://faculty.swjtu.edu.cn/yeyuanxin/zh_CN/index.htm), Prof. Dr. [Wen Yang](http://eis.whu.edu.cn/ryDetail.shtml?rsh=00200590), Prof. Dr. [Deliang Xiang](https://cist.buct.edu.cn/2020/1015/c8723a133549/page.htm) and Dr. Ling Wan.
