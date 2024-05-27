@@ -18,6 +18,10 @@ My current research mainly lies in image registration and 3D reconstruction usin
 
 Recent news
 ======
+2024/5: A small milestone is achieved, 1000 citations!
+
+![1000Citation](https://github.com/xym2009/xym2009.github.io/assets/19380078/bac39cee-e310-4963-a63d-18cb7509c552)
+
 2024/5: My first Highly Cited Paper: OS-SIFT
 ![OS-SIFT高被引](https://github.com/xym2009/xym2009.github.io/assets/19380078/3fd94b7f-009d-43f7-b861-c219c8cecdbd)
 
