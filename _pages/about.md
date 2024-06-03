@@ -8,16 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an Associate Professor with the Key Laboratory of Technology in Geo-spatial Information Processing and Application Systems, _Aerospace Information Research Institute, Chinese Academy of Sciences_, Beijing, China. 
+I am an Associate Professor with the Key Laboratory of Technology in Geo-spatial Information Processing and Application Systems, __Aerospace Information Research Institute, Chinese Academy of Sciences__, Beijing, China. 
 
-I received my B.S. degree in Department of Electronic Engineering, _Tsinghua University_, 2013, and my Ph.D degree in School of Electronic, Electrical and Communication Engineering, _University of Chinese Academy of Sciences_, 2018. 
+I received my B.S. degree in Department of Electronic Engineering, __Tsinghua University__, 2013, and my Ph.D degree in School of Electronic, Electrical and Communication Engineering, __University of Chinese Academy of Sciences__, 2018. 
 
-I received the _Excellent Doctoral Dissertation Award of Chinese Academy of Sciences_ in 2019. 
+I received the __Excellent Doctoral Dissertation Award of Chinese Academy of Sciences__ in 2019. 
 
 My current research mainly lies in image registration and 3D reconstruction using multi-sensor remote sensing images. 
 
 Recent news
 ======
+2024/6: A paper titled "Detector-free Feature Matching for Optical and SAR Images Based on A Two-step Strategy" has been accepted by __IEEE TGRS__. In this paper, we proposed a pioneering approach in achieving high-accuracy correspondences for optical and SAR images with near real-time efficiency.
+
 2024/5: A small milestone is achieved, 1000 citations!
 
 ![1000Citation](https://github.com/xym2009/xym2009.github.io/assets/19380078/bac39cee-e310-4963-a63d-18cb7509c552)
