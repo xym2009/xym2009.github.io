@@ -9,6 +9,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 2024
 ======
+* __[j33]__ __Yuming Xiang__, Liting Jiang, Feng Wang, Hongjian You, Xiaolan Qiu, Kun Fu. Detector-free Feature Matching for Optical and SAR Images Based on A Two-step Strategy, IEEE Transactions on Geoscience and Remote Sensing, in press, 2024. (IF-8.2, JCR-Q1, 中科院1区)
 * __[j32]__ __Yuming Xiang__, Fei Teng, Linhui Wang, Niangang Jiao, Feng Wang, Hongjian You. Orthorectification of high-resolution SAR images in island regions based on fast multimodal registration, Journal of Radars, in press. doi: 10.12000/JR24022. [pdf](https://radars.ac.cn/article/doi/10.12000/JR24022?viewType=HTML)
 * __[j31]__ Xuanqi Wang, Liting Jiang, Feng Wang, Hongjian You, __Yuming Xiang__. Disparity Refinement for Stereo Matching of High-Resolution Remote Sensing Images Based on GIS Data, Remote Sensing, 16 (3), 487, 2024. [pdf](https://www.mdpi.com/2072-4292/16/3/487) (IF-5.0, JCR-Q1, 中科院2区)
 
