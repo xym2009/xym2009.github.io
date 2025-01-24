@@ -9,6 +9,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 2024
 ======
+* __[j37]__ Liting Jiang, Feng Wang, Wenyi Zhang, Peifeng Li, Hongjian You, __Yuming Xiang*__. Rethinking the Key Factors for the Generalization of Remote Sensing Stereo Matching Networks, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2024. [pdf](https://ieeexplore.ieee.org/abstract/document/10818595) (IF-5.5, JCR-Q1, 中科院2区top)
 * __[j36]__ Jingxing Zhu, Guangyao Zhou, Feng Wang, Rui Liu, __Yuming Xiang*__, Wenzhi Wang. Multitemporal SAR Images Change Detection Considering Ambiguous Co-Registration Errors: A Unified Framework, IEEE Geoscience and Remote Sensing Letters, 2024. [pdf](https://www.researchgate.net/publication/385442442_Multi-temporal_SAR_Images_Change_Detection_Considering_Ambiguous_Co-registration_Errors_A_Unified_Framework) (IF-4.8, JCR-Q1, 中科院3区)
 * __[j35]__ Niangang Jiao, __Yuming Xiang__, Feng Wang, Guangyao Zhou, Hongjian You. Investigation of Global International GNSS Service Control Information Extraction for Geometric Calibration of Remote Sensing Images, Remote Sensing, 16 (20), 3860, 2024. [pdf](https://www.mdpi.com/2072-4292/16/20/3860) (IF-5.0, JCR-Q1, 中科院2区)
 * __[j34]__ Sourabh Paul, A. Sherly Alphonse, Pratham Gupta, __Yuming Xiang__, Amit Kumar Rahul, Manoj Kumar Singh, Preeti Modi. An improved KAZE algorithm for SAR image matching, Remote Sensing Letters, 15 (8), 2024. (IF-1.4)
