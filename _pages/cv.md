@@ -16,9 +16,11 @@ Education
 
 Research Experience
 ======                                                       
+* College of Surveying and Geoinformatics, Tongji University
+  * 2025.2-Current: Associate Professor
 * Aerospace Information Research Institute, Chinese Academy of Sciences
   * 2018.7-2023.3: Assistant Professor
-  * 2023.3-Current: Associate Professor
+  * 2023.3-2024.12: Associate Professor
 * Research on multi-sensor remote sensing image registration
   * Designed a registration framework with remote sensing imaging mechanism as its core; 
   * Proposed robust algorithms on SAR-customized geocoding, sensor-dependent feature extraction and geography-based local matching under the designed framework;
