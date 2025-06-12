@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Associate Professor with College of Surveying and Geoinformatics, Tongji University, Shanghai, China.
+I am an Associate Professor with the College of Surveying and Geoinformatics, Tongji University, Shanghai, China.
 
 From 2018.7 to 2024.12, I worked at the Key Laboratory of Technology in Geo-spatial Information Processing and Application Systems, __Aerospace Information Research Institute, Chinese Academy of Sciences__, Beijing, China. 
 
@@ -20,4 +20,6 @@ My current research mainly lies in image registration and 3D reconstruction usin
 
 Recent news
 ======
-2025/2: I joined College of Surveying and Geoinformatics, Tongji University.
+2025/6: A paper was accepted by IEEE TGRS, co-authored with Dr. Ling Wan.
+2025/6: A paper was accepted by ISPRS journal, co-authored with Dr. Liangzhi Li.
+2025/2: I joined the College of Surveying and Geoinformatics, Tongji University.
