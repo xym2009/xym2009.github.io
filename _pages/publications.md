@@ -9,7 +9,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 2025
 ======
-* __[j39]__ Ling Wan, __Yuming Xiang__, Wenchao Kang, Lei Ma, __Yuming Xiang*__. A Self-Supervised Learning Pretraining Framework for Remote Sensing Image Change Detection, IEEE Transactions on Geoscience and Remote Sensing, in press, 2025. (IF-8.2, JCR-Q1, 中科院1区)
+* __[j39]__ Ling Wan, __Yuming Xiang__, Wenchao Kang, Lei Ma. A Self-Supervised Learning Pretraining Framework for Remote Sensing Image Change Detection, IEEE Transactions on Geoscience and Remote Sensing, in press, 2025. (IF-8.2, JCR-Q1, 中科院1区)
 * __[j38]__ Liangzhi Li, Ling Han, Yuanxin Ye, __Yuming Xiang__, Tingyu Zhang. Deep learning in remote sensing image matching: A survey, ISPRS Journal of Photogrammetry and Remote Sensing, 225, 88-112, 2025. [pdf](https://www.researchgate.net/profile/Liangzhi-Li-4/publication/391877187_Deep_learning_in_remote_sensing_image_matching_A_survey/links/682beda3df0e3f544f556b41/Deep-learning-in-remote-sensing-image-matching-A-survey.pdf) (中科院1区top)
   
 2024
