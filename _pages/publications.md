@@ -7,6 +7,11 @@ author_profile: true
 
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=JOIva1oAAAAJ&sortby=pubdate)
 
+2025
+======
+* __[j39]__ Ling Wan, __Yuming Xiang__, Wenchao Kang, Lei Ma, __Yuming Xiang*__. A Self-Supervised Learning Pretraining Framework for Remote Sensing Image Change Detection, IEEE Transactions on Geoscience and Remote Sensing, in press, 2025. (IF-8.2, JCR-Q1, 中科院1区)
+* __[j38]__ Liangzhi Li, Ling Han, Yuanxin Ye, __Yuming Xiang__, Tingyu Zhang. Deep learning in remote sensing image matching: A survey, ISPRS Journal of Photogrammetry and Remote Sensing, 225, 88-112, 2025. [pdf](https://www.researchgate.net/profile/Liangzhi-Li-4/publication/391877187_Deep_learning_in_remote_sensing_image_matching_A_survey/links/682beda3df0e3f544f556b41/Deep-learning-in-remote-sensing-image-matching-A-survey.pdf) (中科院1区top)
+  
 2024
 ======
 * __[j37]__ Liting Jiang, Feng Wang, Wenyi Zhang, Peifeng Li, Hongjian You, __Yuming Xiang*__. Rethinking the Key Factors for the Generalization of Remote Sensing Stereo Matching Networks, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2024. [pdf](https://ieeexplore.ieee.org/abstract/document/10818595) (IF-5.5, JCR-Q1, 中科院2区top)
