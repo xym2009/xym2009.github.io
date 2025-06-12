@@ -21,5 +21,7 @@ My current research mainly lies in image registration and 3D reconstruction usin
 Recent news
 ======
 2025/6: A paper was accepted by IEEE TGRS, co-authored with Dr. Ling Wan.
+
 2025/6: A paper was accepted by ISPRS journal, co-authored with Dr. Liangzhi Li.
+
 2025/2: I joined the College of Surveying and Geoinformatics, Tongji University.
